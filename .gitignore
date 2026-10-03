@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+data/
+*.zip
+*.joblib
+*.pt
+*.parquet
+analysis/locked_*/
+analysis/new_rerun/
+generated_publication/

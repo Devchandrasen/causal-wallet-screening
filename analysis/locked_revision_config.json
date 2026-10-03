@@ -1,0 +1,26 @@
+{
+  "run_name": "locked_revision_20261002",
+  "purpose": "Auditable rerun and targeted additional experiments after an already examined chronological holdout",
+  "seeds": [13, 42, 97],
+  "train_first_steps": [1, 29],
+  "validation_first_steps": [30, 36],
+  "test_first_steps": [37, 45],
+  "full_horizon": 4,
+  "prefix_horizon": 2,
+  "objective_variants": {
+    "tet_activity_sna": [0.0, 0.0],
+    "dual_tet_activity_sna": [0.5, 0.0],
+    "cons_tet_activity_sna": [0.0, 0.2],
+    "pc_tet_activity_sna": [0.5, 0.2]
+  },
+  "coefficient_provenance": "Fixed for this rerun before fitting and before inspecting its new test predictions. These coefficients appeared in an earlier pilot; that pilot's selection provenance was not recorded. This is not prospective preregistration or a fresh confirmatory test.",
+  "neural": {"learning_rate": 0.0008, "weight_decay": 0.0001, "batch_size": 1024, "max_epochs": 30, "patience": 6, "max_tokens": 16},
+  "token_cap_sensitivity_seed": 42,
+  "token_caps": [8, 16, 32],
+  "external": {"source_split_seed": 2026, "source_validation_fraction": 0.2, "deduplicate_address": true, "remove_source_test_address_overlap": true, "positive_label": "phish", "top_fraction": 0.01},
+  "permutation_repetitions": 10,
+  "bootstrap_repetitions": 500,
+  "bootstrap_seed": 2026,
+  "calibration": "Platt logistic fit on validation scores only; no test recalibration or test-selected orientation",
+  "historical_limit": "Original submission contains no code, validation thresholds or prediction files; exact historical discrepancy cannot be causally attributed from rounded paper values."
+}

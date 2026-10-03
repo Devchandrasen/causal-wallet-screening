@@ -1,0 +1,863 @@
+{
+  "timestamp": "2026-10-02T19:29:04.453683+00:00",
+  "verified_thresholds": 107,
+  "checks": [
+    {
+      "validation_file": "primary\\validation_predictions.parquet",
+      "group": "('HGB', np.int64(42), 'activity')",
+      "view": "score",
+      "threshold": 0.7440110610093055,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "primary\\validation_predictions.parquet",
+      "group": "('HGB', np.int64(42), 'activity_sna')",
+      "view": "score",
+      "threshold": 0.7956021327232187,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "primary\\validation_predictions.parquet",
+      "group": "('MLP', np.int64(42), 'activity')",
+      "view": "score",
+      "threshold": 0.71502644702781,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "primary\\validation_predictions.parquet",
+      "group": "('MLP', np.int64(42), 'activity_sna')",
+      "view": "score",
+      "threshold": 0.8659187678973225,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "primary\\validation_predictions.parquet",
+      "group": "('XGBoost', np.int64(13), 'activity')",
+      "view": "score",
+      "threshold": 0.7908506393432617,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "primary\\validation_predictions.parquet",
+      "group": "('XGBoost', np.int64(13), 'activity_sna')",
+      "view": "score",
+      "threshold": 0.8632951378822327,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "primary\\validation_predictions.parquet",
+      "group": "('XGBoost', np.int64(42), 'activity')",
+      "view": "score",
+      "threshold": 0.7834885120391846,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "primary\\validation_predictions.parquet",
+      "group": "('XGBoost', np.int64(42), 'activity_sna')",
+      "view": "score",
+      "threshold": 0.8662969470024109,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "primary\\validation_predictions.parquet",
+      "group": "('XGBoost', np.int64(97), 'activity')",
+      "view": "score",
+      "threshold": 0.8132879137992859,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "primary\\validation_predictions.parquet",
+      "group": "('XGBoost', np.int64(97), 'activity_sna')",
+      "view": "score",
+      "threshold": 0.8668936491012573,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "primary\\recency_validation_predictions.parquet",
+      "group": "(0.0,)",
+      "view": "score",
+      "threshold": 0.8662969470024109,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "primary\\recency_validation_predictions.parquet",
+      "group": "(0.03,)",
+      "view": "score",
+      "threshold": 0.8756227493286133,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "primary\\recency_validation_predictions.parquet",
+      "group": "(0.06,)",
+      "view": "score",
+      "threshold": 0.8941336274147034,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "primary\\recency_validation_predictions.parquet",
+      "group": "(0.1,)",
+      "view": "score",
+      "threshold": 0.8729444742202759,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "primary\\recency_validation_predictions.parquet",
+      "group": "(0.2,)",
+      "view": "score",
+      "threshold": 0.8960415124893188,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "mlp_sensitivity\\validation_predictions.parquet",
+      "group": "(np.int64(13), 'activity')",
+      "view": "score",
+      "threshold": 0.844002843502677,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "mlp_sensitivity\\validation_predictions.parquet",
+      "group": "(np.int64(13), 'activity_sna')",
+      "view": "score",
+      "threshold": 0.8893426441042459,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "mlp_sensitivity\\validation_predictions.parquet",
+      "group": "(np.int64(97), 'activity')",
+      "view": "score",
+      "threshold": 0.7554074858018317,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "mlp_sensitivity\\validation_predictions.parquet",
+      "group": "(np.int64(97), 'activity_sna')",
+      "view": "score",
+      "threshold": 0.8489244753135995,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "neural\\cons_tet_activity_sna_seed13\\validation_predictions.parquet",
+      "group": "None",
+      "view": "score",
+      "threshold": 0.8712734580039978,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "neural\\cons_tet_activity_sna_seed13\\validation_predictions.parquet",
+      "group": "None",
+      "view": "prefix_score",
+      "threshold": 0.8373883366584778,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "neural\\cons_tet_activity_sna_seed42\\validation_predictions.parquet",
+      "group": "None",
+      "view": "score",
+      "threshold": 0.7994364500045776,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "neural\\cons_tet_activity_sna_seed42\\validation_predictions.parquet",
+      "group": "None",
+      "view": "prefix_score",
+      "threshold": 0.7155277729034424,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "neural\\cons_tet_activity_sna_seed97\\validation_predictions.parquet",
+      "group": "None",
+      "view": "score",
+      "threshold": 0.8087489604949951,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "neural\\cons_tet_activity_sna_seed97\\validation_predictions.parquet",
+      "group": "None",
+      "view": "prefix_score",
+      "threshold": 0.7951878309249878,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "neural\\dual_tet_activity_sna_seed13\\validation_predictions.parquet",
+      "group": "None",
+      "view": "score",
+      "threshold": 0.8625699877738953,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "neural\\dual_tet_activity_sna_seed13\\validation_predictions.parquet",
+      "group": "None",
+      "view": "prefix_score",
+      "threshold": 0.8487743139266968,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "neural\\dual_tet_activity_sna_seed42\\validation_predictions.parquet",
+      "group": "None",
+      "view": "score",
+      "threshold": 0.9069432020187378,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "neural\\dual_tet_activity_sna_seed42\\validation_predictions.parquet",
+      "group": "None",
+      "view": "prefix_score",
+      "threshold": 0.8942985534667969,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "neural\\dual_tet_activity_sna_seed97\\validation_predictions.parquet",
+      "group": "None",
+      "view": "score",
+      "threshold": 0.8369526267051697,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "neural\\dual_tet_activity_sna_seed97\\validation_predictions.parquet",
+      "group": "None",
+      "view": "prefix_score",
+      "threshold": 0.8878112435340881,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "neural\\pc_tet_activity_sna_seed13\\validation_predictions.parquet",
+      "group": "None",
+      "view": "score",
+      "threshold": 0.8626934885978699,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "neural\\pc_tet_activity_sna_seed13\\validation_predictions.parquet",
+      "group": "None",
+      "view": "prefix_score",
+      "threshold": 0.8428242802619934,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "neural\\pc_tet_activity_sna_seed13_cap32\\validation_predictions.parquet",
+      "group": "None",
+      "view": "score",
+      "threshold": 0.8047026991844177,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "neural\\pc_tet_activity_sna_seed13_cap32\\validation_predictions.parquet",
+      "group": "None",
+      "view": "prefix_score",
+      "threshold": 0.8256316781044006,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "neural\\pc_tet_activity_sna_seed13_cap8\\validation_predictions.parquet",
+      "group": "None",
+      "view": "score",
+      "threshold": 0.7652573585510254,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "neural\\pc_tet_activity_sna_seed13_cap8\\validation_predictions.parquet",
+      "group": "None",
+      "view": "prefix_score",
+      "threshold": 0.772399365901947,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "neural\\pc_tet_activity_sna_seed42\\validation_predictions.parquet",
+      "group": "None",
+      "view": "score",
+      "threshold": 0.8893393278121948,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "neural\\pc_tet_activity_sna_seed42\\validation_predictions.parquet",
+      "group": "None",
+      "view": "prefix_score",
+      "threshold": 0.897036612033844,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "neural\\pc_tet_activity_sna_seed42_cap32\\validation_predictions.parquet",
+      "group": "None",
+      "view": "score",
+      "threshold": 0.8698450326919556,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "neural\\pc_tet_activity_sna_seed42_cap32\\validation_predictions.parquet",
+      "group": "None",
+      "view": "prefix_score",
+      "threshold": 0.8588985800743103,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "neural\\pc_tet_activity_sna_seed42_cap8\\validation_predictions.parquet",
+      "group": "None",
+      "view": "score",
+      "threshold": 0.884278416633606,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "neural\\pc_tet_activity_sna_seed42_cap8\\validation_predictions.parquet",
+      "group": "None",
+      "view": "prefix_score",
+      "threshold": 0.8798267841339111,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "neural\\pc_tet_activity_sna_seed97\\validation_predictions.parquet",
+      "group": "None",
+      "view": "score",
+      "threshold": 0.8366514444351196,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "neural\\pc_tet_activity_sna_seed97\\validation_predictions.parquet",
+      "group": "None",
+      "view": "prefix_score",
+      "threshold": 0.8851550221443176,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "neural\\pc_tet_activity_sna_seed97_cap32\\validation_predictions.parquet",
+      "group": "None",
+      "view": "score",
+      "threshold": 0.8682788014411926,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "neural\\pc_tet_activity_sna_seed97_cap32\\validation_predictions.parquet",
+      "group": "None",
+      "view": "prefix_score",
+      "threshold": 0.8283778429031372,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "neural\\pc_tet_activity_sna_seed97_cap8\\validation_predictions.parquet",
+      "group": "None",
+      "view": "score",
+      "threshold": 0.8053196668624878,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "neural\\pc_tet_activity_sna_seed97_cap8\\validation_predictions.parquet",
+      "group": "None",
+      "view": "prefix_score",
+      "threshold": 0.802193284034729,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "neural\\tet_activity_seed13\\validation_predictions.parquet",
+      "group": "None",
+      "view": "score",
+      "threshold": 0.8997282385826111,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "neural\\tet_activity_seed13\\validation_predictions.parquet",
+      "group": "None",
+      "view": "prefix_score",
+      "threshold": 0.8316929340362549,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "neural\\tet_activity_seed42\\validation_predictions.parquet",
+      "group": "None",
+      "view": "score",
+      "threshold": 0.8800002932548523,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "neural\\tet_activity_seed42\\validation_predictions.parquet",
+      "group": "None",
+      "view": "prefix_score",
+      "threshold": 0.8687554597854614,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "neural\\tet_activity_seed97\\validation_predictions.parquet",
+      "group": "None",
+      "view": "score",
+      "threshold": 0.8034084439277649,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "neural\\tet_activity_seed97\\validation_predictions.parquet",
+      "group": "None",
+      "view": "prefix_score",
+      "threshold": 0.7564998269081116,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "neural\\tet_activity_sna_seed13\\validation_predictions.parquet",
+      "group": "None",
+      "view": "score",
+      "threshold": 0.8487236499786377,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "neural\\tet_activity_sna_seed13\\validation_predictions.parquet",
+      "group": "None",
+      "view": "prefix_score",
+      "threshold": 0.8025627136230469,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "neural\\tet_activity_sna_seed42\\validation_predictions.parquet",
+      "group": "None",
+      "view": "score",
+      "threshold": 0.8875760436058044,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "neural\\tet_activity_sna_seed42\\validation_predictions.parquet",
+      "group": "None",
+      "view": "prefix_score",
+      "threshold": 0.793923020362854,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "neural\\tet_activity_sna_seed97\\validation_predictions.parquet",
+      "group": "None",
+      "view": "score",
+      "threshold": 0.8531444072723389,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "neural\\tet_activity_sna_seed97\\validation_predictions.parquet",
+      "group": "None",
+      "view": "prefix_score",
+      "threshold": 0.8290207982063293,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "tgat\\seed13\\validation_predictions.parquet",
+      "group": "None",
+      "view": "score",
+      "threshold": 0.8371996283531189,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "tgat\\seed42\\validation_predictions.parquet",
+      "group": "None",
+      "view": "score",
+      "threshold": 0.8467581868171692,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "tgat\\seed97\\validation_predictions.parquet",
+      "group": "None",
+      "view": "score",
+      "threshold": 0.857232391834259,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "ego\\seed13\\ego_activity_validation_predictions.parquet",
+      "group": "None",
+      "view": "score",
+      "threshold": 0.5352640748023987,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "ego\\seed13\\ego_activity_sna_validation_predictions.parquet",
+      "group": "None",
+      "view": "score",
+      "threshold": 0.7373955845832825,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "ego\\seed42\\ego_activity_validation_predictions.parquet",
+      "group": "None",
+      "view": "score",
+      "threshold": 0.8900173902511597,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "ego\\seed42\\ego_activity_sna_validation_predictions.parquet",
+      "group": "None",
+      "view": "score",
+      "threshold": 0.5626193284988403,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "ego\\seed97\\ego_activity_validation_predictions.parquet",
+      "group": "None",
+      "view": "score",
+      "threshold": 0.5811284780502319,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "ego\\seed97\\ego_activity_sna_validation_predictions.parquet",
+      "group": "None",
+      "view": "score",
+      "threshold": 0.8203240036964417,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "external\\validation_predictions.parquet",
+      "group": "('MLP', np.int64(13), 'activity')",
+      "view": "score",
+      "threshold": 0.3454466462135315,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "external\\validation_predictions.parquet",
+      "group": "('MLP', np.int64(13), 'activity_relation')",
+      "view": "score",
+      "threshold": 0.40009111166000366,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "external\\validation_predictions.parquet",
+      "group": "('MLP', np.int64(42), 'activity')",
+      "view": "score",
+      "threshold": 0.3928994834423065,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "external\\validation_predictions.parquet",
+      "group": "('MLP', np.int64(42), 'activity_relation')",
+      "view": "score",
+      "threshold": 0.4762326776981354,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "external\\validation_predictions.parquet",
+      "group": "('MLP', np.int64(97), 'activity')",
+      "view": "score",
+      "threshold": 0.4212811589241028,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "external\\validation_predictions.parquet",
+      "group": "('MLP', np.int64(97), 'activity_relation')",
+      "view": "score",
+      "threshold": 0.44985464215278625,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "external\\validation_predictions.parquet",
+      "group": "('XGBoost', np.int64(13), 'activity')",
+      "view": "score",
+      "threshold": 0.4074309170246124,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "external\\validation_predictions.parquet",
+      "group": "('XGBoost', np.int64(13), 'activity_relation')",
+      "view": "score",
+      "threshold": 0.490975946187973,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "external\\validation_predictions.parquet",
+      "group": "('XGBoost', np.int64(42), 'activity')",
+      "view": "score",
+      "threshold": 0.42077574133872986,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "external\\validation_predictions.parquet",
+      "group": "('XGBoost', np.int64(42), 'activity_relation')",
+      "view": "score",
+      "threshold": 0.5089410543441772,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "external\\validation_predictions.parquet",
+      "group": "('XGBoost', np.int64(97), 'activity')",
+      "view": "score",
+      "threshold": 0.43372368812561035,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "external\\validation_predictions.parquet",
+      "group": "('XGBoost', np.int64(97), 'activity_relation')",
+      "view": "score",
+      "threshold": 0.4947650134563446,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "transactions\\validation_predictions.parquet",
+      "group": "('Elliptic', np.int64(13), 'local')",
+      "view": "score",
+      "threshold": 0.8030300741791735,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "transactions\\validation_predictions.parquet",
+      "group": "('Elliptic', np.int64(13), 'local_causal_sna')",
+      "view": "score",
+      "threshold": 0.6888734584748745,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "transactions\\validation_predictions.parquet",
+      "group": "('Elliptic', np.int64(42), 'local')",
+      "view": "score",
+      "threshold": 0.7404497265815735,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "transactions\\validation_predictions.parquet",
+      "group": "('Elliptic', np.int64(42), 'local_causal_sna')",
+      "view": "score",
+      "threshold": 0.7447914312034843,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "transactions\\validation_predictions.parquet",
+      "group": "('Elliptic', np.int64(97), 'local')",
+      "view": "score",
+      "threshold": 0.8300264240801342,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "transactions\\validation_predictions.parquet",
+      "group": "('Elliptic', np.int64(97), 'local_causal_sna')",
+      "view": "score",
+      "threshold": 0.8002796498090028,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "transactions\\validation_predictions.parquet",
+      "group": "('Elliptic++ tx', np.int64(13), 'local')",
+      "view": "score",
+      "threshold": 0.848494535312056,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "transactions\\validation_predictions.parquet",
+      "group": "('Elliptic++ tx', np.int64(13), 'local_causal_sna')",
+      "view": "score",
+      "threshold": 0.8368249931633469,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "transactions\\validation_predictions.parquet",
+      "group": "('Elliptic++ tx', np.int64(42), 'local')",
+      "view": "score",
+      "threshold": 0.8388449519872665,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "transactions\\validation_predictions.parquet",
+      "group": "('Elliptic++ tx', np.int64(42), 'local_causal_sna')",
+      "view": "score",
+      "threshold": 0.8067869900465011,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "transactions\\validation_predictions.parquet",
+      "group": "('Elliptic++ tx', np.int64(97), 'local')",
+      "view": "score",
+      "threshold": 0.8423380481004714,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "transactions\\validation_predictions.parquet",
+      "group": "('Elliptic++ tx', np.int64(97), 'local_causal_sna')",
+      "view": "score",
+      "threshold": 0.865872235327959,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "horizons\\H1\\activity_validation_predictions.parquet",
+      "group": "None",
+      "view": "score",
+      "threshold": 0.7275954484939575,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "horizons\\H1\\activity_sna_validation_predictions.parquet",
+      "group": "None",
+      "view": "score",
+      "threshold": 0.8544517159461975,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "horizons\\H2\\activity_validation_predictions.parquet",
+      "group": "None",
+      "view": "score",
+      "threshold": 0.8050767183303833,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "horizons\\H2\\activity_sna_validation_predictions.parquet",
+      "group": "None",
+      "view": "score",
+      "threshold": 0.8425785899162292,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "horizons\\H4\\activity_validation_predictions.parquet",
+      "group": "None",
+      "view": "score",
+      "threshold": 0.7836204171180725,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "horizons\\H4\\activity_sna_validation_predictions.parquet",
+      "group": "None",
+      "view": "score",
+      "threshold": 0.8656951189041138,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "horizons\\H8\\activity_validation_predictions.parquet",
+      "group": "None",
+      "view": "score",
+      "threshold": 0.8131541609764099,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "horizons\\H8\\activity_sna_validation_predictions.parquet",
+      "group": "None",
+      "view": "score",
+      "threshold": 0.8394686579704285,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "controls\\label_permutation_validation_predictions.parquet",
+      "group": "(1,)",
+      "view": "score",
+      "threshold": 0.5160701274871826,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "controls\\label_permutation_validation_predictions.parquet",
+      "group": "(2,)",
+      "view": "score",
+      "threshold": 0.5066568851470947,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "controls\\label_permutation_validation_predictions.parquet",
+      "group": "(3,)",
+      "view": "score",
+      "threshold": 0.5229619741439819,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "controls\\label_permutation_validation_predictions.parquet",
+      "group": "(4,)",
+      "view": "score",
+      "threshold": 0.49210795760154724,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    },
+    {
+      "validation_file": "controls\\label_permutation_validation_predictions.parquet",
+      "group": "(5,)",
+      "view": "score",
+      "threshold": 0.5126944184303284,
+      "threshold_recomputed": true,
+      "identities_disjoint": true
+    }
+  ],
+  "calibration_exception": "Platt threshold monotonically maps the source validation threshold; it is not retuned."
+}

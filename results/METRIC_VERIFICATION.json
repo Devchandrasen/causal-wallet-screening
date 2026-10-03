@@ -1,0 +1,772 @@
+{
+  "verified_rows": 108,
+  "checks": [
+    {
+      "dataset": "Elliptic++",
+      "model": "XGBoost",
+      "features": "activity",
+      "seed": 13,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "XGBoost",
+      "features": "activity_sna",
+      "seed": 13,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "XGBoost",
+      "features": "activity",
+      "seed": 42,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "XGBoost",
+      "features": "activity_sna",
+      "seed": 42,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "XGBoost",
+      "features": "activity",
+      "seed": 97,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "XGBoost",
+      "features": "activity_sna",
+      "seed": 97,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "HGB",
+      "features": "activity",
+      "seed": 42,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "HGB",
+      "features": "activity_sna",
+      "seed": 42,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "MLP",
+      "features": "activity",
+      "seed": 42,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "MLP",
+      "features": "activity_sna",
+      "seed": 42,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "MLP",
+      "features": "activity",
+      "seed": 13,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "MLP",
+      "features": "activity_sna",
+      "seed": 13,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "MLP",
+      "features": "activity",
+      "seed": 97,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "MLP",
+      "features": "activity_sna",
+      "seed": 97,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "Consistency TET",
+      "features": "cons_tet_activity_sna",
+      "seed": "13",
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "Consistency TET",
+      "features": "cons_tet_activity_sna",
+      "seed": "13",
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "Consistency TET",
+      "features": "cons_tet_activity_sna",
+      "seed": "42",
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "Consistency TET",
+      "features": "cons_tet_activity_sna",
+      "seed": "42",
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "Consistency TET",
+      "features": "cons_tet_activity_sna",
+      "seed": "97",
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "Consistency TET",
+      "features": "cons_tet_activity_sna",
+      "seed": "97",
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "Dual-horizon TET",
+      "features": "dual_tet_activity_sna",
+      "seed": "13",
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "Dual-horizon TET",
+      "features": "dual_tet_activity_sna",
+      "seed": "13",
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "Dual-horizon TET",
+      "features": "dual_tet_activity_sna",
+      "seed": "42",
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "Dual-horizon TET",
+      "features": "dual_tet_activity_sna",
+      "seed": "42",
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "Dual-horizon TET",
+      "features": "dual_tet_activity_sna",
+      "seed": "97",
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "Dual-horizon TET",
+      "features": "dual_tet_activity_sna",
+      "seed": "97",
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "PC-TET",
+      "features": "pc_tet_activity_sna",
+      "seed": "13",
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "PC-TET",
+      "features": "pc_tet_activity_sna",
+      "seed": "13",
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "PC-TET",
+      "features": "pc_tet_activity_sna",
+      "seed": "13",
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "PC-TET",
+      "features": "pc_tet_activity_sna",
+      "seed": "13",
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "PC-TET",
+      "features": "pc_tet_activity_sna",
+      "seed": "13",
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "PC-TET",
+      "features": "pc_tet_activity_sna",
+      "seed": "13",
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "PC-TET",
+      "features": "pc_tet_activity_sna",
+      "seed": "42",
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "PC-TET",
+      "features": "pc_tet_activity_sna",
+      "seed": "42",
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "PC-TET",
+      "features": "pc_tet_activity_sna",
+      "seed": "42",
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "PC-TET",
+      "features": "pc_tet_activity_sna",
+      "seed": "42",
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "PC-TET",
+      "features": "pc_tet_activity_sna",
+      "seed": "42",
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "PC-TET",
+      "features": "pc_tet_activity_sna",
+      "seed": "42",
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "PC-TET",
+      "features": "pc_tet_activity_sna",
+      "seed": "97",
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "PC-TET",
+      "features": "pc_tet_activity_sna",
+      "seed": "97",
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "PC-TET",
+      "features": "pc_tet_activity_sna",
+      "seed": "97",
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "PC-TET",
+      "features": "pc_tet_activity_sna",
+      "seed": "97",
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "PC-TET",
+      "features": "pc_tet_activity_sna",
+      "seed": "97",
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "PC-TET",
+      "features": "pc_tet_activity_sna",
+      "seed": "97",
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "TET",
+      "features": "tet_activity",
+      "seed": "13",
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "TET",
+      "features": "tet_activity",
+      "seed": "13",
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "TET",
+      "features": "tet_activity",
+      "seed": "42",
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "TET",
+      "features": "tet_activity",
+      "seed": "42",
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "TET",
+      "features": "tet_activity",
+      "seed": "97",
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "TET",
+      "features": "tet_activity",
+      "seed": "97",
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "TET",
+      "features": "tet_activity_sna",
+      "seed": "13",
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "TET",
+      "features": "tet_activity_sna",
+      "seed": "13",
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "TET",
+      "features": "tet_activity_sna",
+      "seed": "42",
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "TET",
+      "features": "tet_activity_sna",
+      "seed": "42",
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "TET",
+      "features": "tet_activity_sna",
+      "seed": "97",
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "TET",
+      "features": "tet_activity_sna",
+      "seed": "97",
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "CausalEgoSAGE",
+      "features": "ego_activity",
+      "seed": 13,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "CausalEgoSAGE",
+      "features": "ego_activity_sna",
+      "seed": 13,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "CausalEgoSAGE",
+      "features": "ego_activity",
+      "seed": 42,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "CausalEgoSAGE",
+      "features": "ego_activity_sna",
+      "seed": 42,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "CausalEgoSAGE",
+      "features": "ego_activity",
+      "seed": 97,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "CausalEgoSAGE",
+      "features": "ego_activity_sna",
+      "seed": 97,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "TGAT (causal adaptation)",
+      "features": "activity_sna + two-hop events",
+      "seed": "13",
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "TGAT (causal adaptation)",
+      "features": "activity_sna + two-hop events",
+      "seed": "42",
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "TGAT (causal adaptation)",
+      "features": "activity_sna + two-hop events",
+      "seed": "97",
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Real-CATS to Sup-CATS",
+      "model": "XGBoost",
+      "features": "activity",
+      "seed": 13,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Real-CATS to Sup-CATS",
+      "model": "XGBoost",
+      "features": "activity",
+      "seed": 42,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Real-CATS to Sup-CATS",
+      "model": "XGBoost",
+      "features": "activity",
+      "seed": 97,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Real-CATS to Sup-CATS",
+      "model": "MLP",
+      "features": "activity",
+      "seed": 13,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Real-CATS to Sup-CATS",
+      "model": "MLP",
+      "features": "activity",
+      "seed": 42,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Real-CATS to Sup-CATS",
+      "model": "MLP",
+      "features": "activity",
+      "seed": 97,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Real-CATS to Sup-CATS",
+      "model": "XGBoost",
+      "features": "activity_relation",
+      "seed": 13,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Real-CATS to Sup-CATS",
+      "model": "XGBoost",
+      "features": "activity_relation",
+      "seed": 42,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Real-CATS to Sup-CATS",
+      "model": "XGBoost",
+      "features": "activity_relation",
+      "seed": 97,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Real-CATS to Sup-CATS",
+      "model": "MLP",
+      "features": "activity_relation",
+      "seed": 13,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Real-CATS to Sup-CATS",
+      "model": "MLP",
+      "features": "activity_relation",
+      "seed": 42,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Real-CATS to Sup-CATS",
+      "model": "MLP",
+      "features": "activity_relation",
+      "seed": 97,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic",
+      "model": "XGBoost",
+      "features": "local",
+      "seed": 13,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic",
+      "model": "XGBoost",
+      "features": "local_causal_sna",
+      "seed": 13,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic",
+      "model": "XGBoost",
+      "features": "local",
+      "seed": 42,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic",
+      "model": "XGBoost",
+      "features": "local_causal_sna",
+      "seed": 42,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic",
+      "model": "XGBoost",
+      "features": "local",
+      "seed": 97,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic",
+      "model": "XGBoost",
+      "features": "local_causal_sna",
+      "seed": 97,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++ tx",
+      "model": "XGBoost",
+      "features": "local",
+      "seed": 13,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++ tx",
+      "model": "XGBoost",
+      "features": "local_causal_sna",
+      "seed": 13,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++ tx",
+      "model": "XGBoost",
+      "features": "local",
+      "seed": 42,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++ tx",
+      "model": "XGBoost",
+      "features": "local_causal_sna",
+      "seed": 42,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++ tx",
+      "model": "XGBoost",
+      "features": "local",
+      "seed": 97,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++ tx",
+      "model": "XGBoost",
+      "features": "local_causal_sna",
+      "seed": 97,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "XGBoost",
+      "features": "activity",
+      "seed": 42,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "XGBoost",
+      "features": "activity_sna",
+      "seed": 42,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "XGBoost",
+      "features": "activity",
+      "seed": 42,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "XGBoost",
+      "features": "activity_sna",
+      "seed": 42,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "XGBoost",
+      "features": "activity",
+      "seed": 42,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "XGBoost",
+      "features": "activity_sna",
+      "seed": 42,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "XGBoost",
+      "features": "activity",
+      "seed": 42,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "XGBoost",
+      "features": "activity_sna",
+      "seed": 42,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "XGBoost + validation Platt",
+      "features": "activity_sna",
+      "seed": 42,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "XGBoost",
+      "features": "activity_sna",
+      "seed": 1.0,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "XGBoost",
+      "features": "activity_sna",
+      "seed": 2.0,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "XGBoost",
+      "features": "activity_sna",
+      "seed": 3.0,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "XGBoost",
+      "features": "activity_sna",
+      "seed": 4.0,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "XGBoost",
+      "features": "activity_sna",
+      "seed": 5.0,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "XGBoost",
+      "features": "activity_sna",
+      "seed": 42,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "XGBoost",
+      "features": "activity_sna",
+      "seed": 42,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "XGBoost",
+      "features": "activity_sna",
+      "seed": 42,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "XGBoost",
+      "features": "activity_sna",
+      "seed": 42,
+      "metrics_recomputed": true
+    },
+    {
+      "dataset": "Elliptic++",
+      "model": "XGBoost",
+      "features": "activity_sna",
+      "seed": 42,
+      "metrics_recomputed": true
+    }
+  ],
+  "environment": {
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scikit_learn": "1.8.0",
+    "xgboost": "3.2.0",
+    "torch": "2.11.0+cu128",
+    "cuda": "12.8",
+    "device": "NVIDIA GeForce RTX 5060 Laptop GPU"
+  }
+}

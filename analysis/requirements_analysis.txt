@@ -1,0 +1,12 @@
+# Experiment environment used for this revision. Python 3.12.10.
+numpy==2.3.5
+pandas==2.3.3
+scikit-learn==1.8.0
+xgboost==3.2.0
+torch==2.11.0
+joblib==1.5.3
+pyarrow==24.0.0
+matplotlib==3.11.0
+# GPU runs used the torch 2.11.0+cu128 wheel (CUDA 12.8).
+# Use the appropriate official PyTorch wheel index for the target machine.
+# Document authoring is optional and uses the Codex bundled python-docx runtime.

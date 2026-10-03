@@ -1,0 +1,191 @@
+{
+  "timestamp": "2026-10-02T19:29:09.073069+00:00",
+  "fitted_source_checks": [
+    {
+      "manifest": "controls\\manifest.json",
+      "source_hash_verified": true
+    },
+    {
+      "manifest": "external\\manifest.json",
+      "source_hash_verified": true
+    },
+    {
+      "manifest": "mlp_sensitivity\\manifest.json",
+      "source_hash_verified": true
+    },
+    {
+      "manifest": "primary\\manifest.json",
+      "source_hash_verified": true
+    },
+    {
+      "manifest": "ego\\seed13\\manifest.json",
+      "source_hash_verified": true
+    },
+    {
+      "manifest": "ego\\seed42\\manifest.json",
+      "source_hash_verified": true
+    },
+    {
+      "manifest": "ego\\seed97\\manifest.json",
+      "source_hash_verified": true
+    },
+    {
+      "manifest": "neural\\cons_tet_activity_sna_seed13\\manifest.json",
+      "source_hash_verified": true
+    },
+    {
+      "manifest": "neural\\cons_tet_activity_sna_seed42\\manifest.json",
+      "source_hash_verified": true
+    },
+    {
+      "manifest": "neural\\cons_tet_activity_sna_seed97\\manifest.json",
+      "source_hash_verified": true
+    },
+    {
+      "manifest": "neural\\dual_tet_activity_sna_seed13\\manifest.json",
+      "source_hash_verified": true
+    },
+    {
+      "manifest": "neural\\dual_tet_activity_sna_seed42\\manifest.json",
+      "source_hash_verified": true
+    },
+    {
+      "manifest": "neural\\dual_tet_activity_sna_seed97\\manifest.json",
+      "source_hash_verified": true
+    },
+    {
+      "manifest": "neural\\pc_tet_activity_sna_seed13\\manifest.json",
+      "source_hash_verified": true
+    },
+    {
+      "manifest": "neural\\pc_tet_activity_sna_seed13_cap32\\manifest.json",
+      "source_hash_verified": true
+    },
+    {
+      "manifest": "neural\\pc_tet_activity_sna_seed13_cap8\\manifest.json",
+      "source_hash_verified": true
+    },
+    {
+      "manifest": "neural\\pc_tet_activity_sna_seed42\\manifest.json",
+      "source_hash_verified": true
+    },
+    {
+      "manifest": "neural\\pc_tet_activity_sna_seed42_cap32\\manifest.json",
+      "source_hash_verified": true
+    },
+    {
+      "manifest": "neural\\pc_tet_activity_sna_seed42_cap8\\manifest.json",
+      "source_hash_verified": true
+    },
+    {
+      "manifest": "neural\\pc_tet_activity_sna_seed97\\manifest.json",
+      "source_hash_verified": true
+    },
+    {
+      "manifest": "neural\\pc_tet_activity_sna_seed97_cap32\\manifest.json",
+      "source_hash_verified": true
+    },
+    {
+      "manifest": "neural\\pc_tet_activity_sna_seed97_cap8\\manifest.json",
+      "source_hash_verified": true
+    },
+    {
+      "manifest": "neural\\tet_activity_seed13\\manifest.json",
+      "source_hash_verified": true
+    },
+    {
+      "manifest": "neural\\tet_activity_seed42\\manifest.json",
+      "source_hash_verified": true
+    },
+    {
+      "manifest": "neural\\tet_activity_seed97\\manifest.json",
+      "source_hash_verified": true
+    },
+    {
+      "manifest": "neural\\tet_activity_sna_seed13\\manifest.json",
+      "source_hash_verified": true
+    },
+    {
+      "manifest": "neural\\tet_activity_sna_seed42\\manifest.json",
+      "source_hash_verified": true
+    },
+    {
+      "manifest": "neural\\tet_activity_sna_seed97\\manifest.json",
+      "source_hash_verified": true
+    },
+    {
+      "manifest": "tgat\\seed13\\manifest.json",
+      "source_hash_verified": true
+    },
+    {
+      "manifest": "tgat\\seed42\\manifest.json",
+      "source_hash_verified": true
+    },
+    {
+      "manifest": "tgat\\seed97\\manifest.json",
+      "source_hash_verified": true
+    }
+  ],
+  "raw_source_checks": [
+    {
+      "run_family": "primary",
+      "file": "txs_features.csv",
+      "sha256": "2db326ec8ddb68f1d810c1834e1ff62e0a8300378f0984a1e3b2ca82a439821b",
+      "verified": true
+    },
+    {
+      "run_family": "primary",
+      "file": "wallets_classes.csv",
+      "sha256": "4e5132c99f941666bf1fefd4100a1428d339c9252ec6987909e1adf8eac902f9",
+      "verified": true
+    },
+    {
+      "run_family": "primary",
+      "file": "AddrTx_edgelist.csv",
+      "sha256": "f5f903f752387f66a1bccaeff54e293b2e8470fcddf5eb56b88aa06fd23a8f3b",
+      "verified": true
+    },
+    {
+      "run_family": "primary",
+      "file": "TxAddr_edgelist.csv",
+      "sha256": "9f5afbdde7bc3d91fb7a4655be55799d6504cd0063ae55a0753a5a41189932b8",
+      "verified": true
+    },
+    {
+      "run_family": "external",
+      "file": "BE.tsv",
+      "sha256": "decdebc73e67d1abafa3d79979a5ab0c6fd7c26ccfb47dc1bbddcdf02a9e910a",
+      "verified": true
+    },
+    {
+      "run_family": "external",
+      "file": "CE.tsv",
+      "sha256": "0014b88eb6ebedce8f1b13609d8774ffe086e83c8e59834ec64b702d764ce41a",
+      "verified": true
+    },
+    {
+      "run_family": "external",
+      "file": "Sup-CATS.tsv",
+      "sha256": "6d54568d976c907b1a912d25dae31b2cd7c61cca957a78128283697a5e45976a",
+      "verified": true
+    },
+    {
+      "run_family": "transactions",
+      "file": "txs_features.csv",
+      "sha256": "2db326ec8ddb68f1d810c1834e1ff62e0a8300378f0984a1e3b2ca82a439821b",
+      "verified": true
+    },
+    {
+      "run_family": "transactions",
+      "file": "txs_classes.csv",
+      "sha256": "013a11742969071a906878ded0319571df0657f9b7133e5c6cdb36217bf0d240",
+      "verified": true
+    },
+    {
+      "run_family": "transactions",
+      "file": "txs_edgelist.csv",
+      "sha256": "a35053ba68a98e4382cae2ba65b9d9e36b23b6439e02dff084971b1b72a5156e",
+      "verified": true
+    }
+  ]
+}
