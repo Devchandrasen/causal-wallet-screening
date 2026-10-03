@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite this research code repository and the associated manuscript."
+title: "Causal Wallet Screening with Counterparty Features and Prefix-Consistent Temporal Learning"
+type: software
+authors:
+  - family-names: Pandey
+    given-names: Ashish
+  - family-names: Pandey
+    given-names: Chandrasen
+  - family-names: Pandey
+    given-names: Stuti
+repository-code: "https://github.com/Devchandrasen/causal-wallet-screening"
+date-released: 2026-10-03
+abstract: "Executable cutoff-safe wallet-screening experiments, fixed configurations and aggregate verification results for retrospective Bitcoin and Ethereum address tasks."

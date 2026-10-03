@@ -1,0 +1,90 @@
+{
+  "timestamp": "2026-10-03T03:22:41.237738+00:00",
+  "protocol_sha256": "5ad2426c3f1deaf8e758f11f5baade76783fb7ab51a0675138aee9c6957d84bc",
+  "adapter_sha256": "9ab588981cef2808acf26b24f39be14f7c67683794554bfb8464fcaab055e0d7",
+  "source_records": [
+    {
+      "archive": "BERT4ETH_normal.zip",
+      "sha256": "4dfdcb16d33c1869598f4a49b3c1cbec6cb86d156951285876be25e393fb8801",
+      "files": [
+        {
+          "name": "normal_eoa_transaction_out_slice_1000K.csv",
+          "rows": 8190933,
+          "missing_endpoints": 0,
+          "selected_event_rows": 419699,
+          "min_timestamp": 1498251994,
+          "max_timestamp": 1646092669
+        },
+        {
+          "name": "normal_eoa_transaction_in_slice_1000K.csv",
+          "rows": 3159707,
+          "missing_endpoints": 0,
+          "selected_event_rows": 158465,
+          "min_timestamp": 1498251906,
+          "max_timestamp": 1646092612
+        }
+      ]
+    },
+    {
+      "archive": "BERT4ETH_phish.zip",
+      "sha256": "383bbf12ccbbb7318c7b816a9912f9467e167af9e9646d22d16c5b7acd42df96",
+      "files": [
+        {
+          "name": "phisher_transaction_out.csv",
+          "rows": 145905,
+          "missing_endpoints": 531,
+          "selected_event_rows": 145374,
+          "min_timestamp": 1498261945,
+          "max_timestamp": 1646082436
+        },
+        {
+          "name": "phisher_transaction_in.csv",
+          "rows": 182356,
+          "missing_endpoints": 0,
+          "selected_event_rows": 141465,
+          "min_timestamp": 1498283579,
+          "max_timestamp": 1646090962
+        }
+      ]
+    }
+  ],
+  "label_sha256": "20da95b41fe6bb68e1b4782e5843eca07f9337597eee87a20e36df2f0aa730c9",
+  "label_list_unique": 5661,
+  "selected_roots_before_cohort": 33011,
+  "deduplicated_rows_removed": 0,
+  "collection_end_timestamp_used": 1646090962,
+  "samples": 25558,
+  "visible_events": 371275,
+  "self_event_rows_excluded_from_pairs": 2154,
+  "causal_assertions": "passed",
+  "cohort_counts": [
+    {
+      "split": "test",
+      "0": 3624,
+      "1": 136
+    },
+    {
+      "split": "train",
+      "0": 15340,
+      "1": 2808
+    },
+    {
+      "split": "validation",
+      "0": 3528,
+      "1": 122
+    }
+  ],
+  "environment": {
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scikit_learn": "1.8.0",
+    "xgboost": "3.2.0",
+    "torch": "2.11.0+cu128",
+    "cuda": "12.8",
+    "device": "NVIDIA GeForce RTX 5060 Laptop GPU"
+  },
+  "sample_sha256": "9290d93d26e2efb6644bb1f22cc85217ce7b17f81d07ac9681f7b6912973aafc",
+  "limitations": "The external corpus was sampled retrospectively and its released histories are bounded. First appearance means first observed in this corpus, not verified address creation. The author label list is retrospective, with no historical label-release time. Negative accounts are sampled unlabeled EOAs, not adjudicated licit cases. These results are conditional on released-corpus selection; they are not prospective operational validation or a proof of no selection bias. This local protocol freeze is not registered preregistration."
+}
