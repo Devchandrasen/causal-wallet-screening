@@ -40,6 +40,7 @@ def main():
     parser.add_argument("--root", type=Path, default=Path("analysis/external_bert4eth_20261003"))
     parser.add_argument("--bundle", type=Path, default=Path("revision_bundle"))
     args = parser.parse_args()
+    (args.bundle / "generated").mkdir(parents=True, exist_ok=True)
     checks, all_rows, summaries = [], [], []
     root = args.root
     prepared = json.loads((root / "PREPARED.json").read_text())
@@ -124,6 +125,7 @@ def main():
     (args.bundle / "generated/bert4eth_tabular_rows.tex").write_text(" \\\\\n".join(tab_rows), encoding="utf-8")
     (args.bundle / "generated/bert4eth_objective_rows.tex").write_text(" \\\\\n".join(objective_rows), encoding="utf-8")
     save_json(root / "EXTERNAL_VERIFICATION.json", {"timestamp": utc_now(), "protocol_sha256": frozen["protocol_sha256"],
+                "verification_script_sha256": sha256(Path(__file__)),
                 "metric_and_threshold_rows_verified": len(checks), "checks": checks, "bootstrap_rows": bootstrap,
                 "numerical_tolerance": "1e-10, except Brier 1e-7 for float32/float64 promotion in the combined tabular predictions",
                 "data_cutoff_and_disjointness_checks": "passed", "test_alert_count": int(np.ceil(.01 * prepared["cohort_counts"][0]["0"] + .01 * prepared["cohort_counts"][0]["1"]))})

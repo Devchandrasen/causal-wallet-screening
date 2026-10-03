@@ -1,6 +1,7 @@
 {
-  "timestamp": "2026-10-03T03:26:52.493892+00:00",
+  "timestamp": "2026-10-03T03:40:04.802997+00:00",
   "protocol_sha256": "5ad2426c3f1deaf8e758f11f5baade76783fb7ab51a0675138aee9c6957d84bc",
+  "verification_script_sha256": "efb86a9b1758a4d1b1576668cb6c25c6af8e513727a7ac9e58d8acb870f17455",
   "metric_and_threshold_rows_verified": 36,
   "checks": [
     {
